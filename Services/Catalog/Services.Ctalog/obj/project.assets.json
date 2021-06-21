@@ -326,7 +326,10 @@
         },
         "runtime": {
           "bin/placeholder/Shared.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },

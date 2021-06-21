@@ -42,8 +42,9 @@ namespace Services.Catalog.Services
             return Response<CategoryDto>.Success(_mapper.Map<CategoryDto>(category), 200);
         }
 
-        public async Task<Response<CategoryDto>> CreateAsync(Category category)
+        public async Task<Response<CategoryDto>> CreateAsync(CategoryDto categoryDto)
         {
+            var category = _mapper.Map<Category>(categoryDto);
             await _mongoCollection.InsertOneAsync(category);
             return Response<CategoryDto>.Success(_mapper.Map<CategoryDto>(category), 200);
         }
