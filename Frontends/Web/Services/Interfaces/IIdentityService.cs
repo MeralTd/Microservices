@@ -1,4 +1,5 @@
-﻿using Shared.Dtos;
+﻿using IdentityModel.Client;
+using Shared.Dtos;
 using System;
 using System.Collections.Generic;
 using System.Linq;
