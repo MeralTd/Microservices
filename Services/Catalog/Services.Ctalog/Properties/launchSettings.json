@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "Services.Ctalog": {
+    "Services.Catalog": {
       "commandName": "Project",
       "dotnetRunMessages": "true",
       "launchBrowser": false,

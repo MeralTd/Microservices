@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Services.Ctalog
+namespace Services.Catalog
 {
     public class Program
     {
