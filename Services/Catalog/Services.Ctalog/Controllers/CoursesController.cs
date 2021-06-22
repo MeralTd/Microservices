@@ -55,7 +55,7 @@ namespace Services.Catalog.Controllers
         [HttpPut]
         public async Task<IActionResult> Update(CourseUpdateDto courseUpdateDto)
         {
-            var response = await _courseService.CreateAsync(courseUpdateDto);
+            var response = await _courseService.UpdateAsync(courseUpdateDto);
 
             return CreateActionResultInstance(response);
         }

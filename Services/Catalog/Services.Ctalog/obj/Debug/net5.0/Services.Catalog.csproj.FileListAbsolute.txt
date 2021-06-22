@@ -1,0 +1,7 @@
+C:\Users\Evogens_PC\source\repos\Microservices\Services\Catalog\Services.Ctalog\obj\Debug\net5.0\Services.Catalog.csproj.AssemblyReference.cache
+C:\Users\Evogens_PC\source\repos\Microservices\Services\Catalog\Services.Ctalog\obj\Debug\net5.0\Services.Catalog.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Evogens_PC\source\repos\Microservices\Services\Catalog\Services.Ctalog\obj\Debug\net5.0\Services.Catalog.AssemblyInfoInputs.cache
+C:\Users\Evogens_PC\source\repos\Microservices\Services\Catalog\Services.Ctalog\obj\Debug\net5.0\Services.Catalog.AssemblyInfo.cs
+C:\Users\Evogens_PC\source\repos\Microservices\Services\Catalog\Services.Ctalog\obj\Debug\net5.0\Services.Catalog.csproj.CoreCompileInputs.cache
+C:\Users\Evogens_PC\source\repos\Microservices\Services\Catalog\Services.Ctalog\obj\Debug\net5.0\Services.Catalog.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Evogens_PC\source\repos\Microservices\Services\Catalog\Services.Ctalog\obj\Debug\net5.0\Services.Catalog.MvcApplicationPartsAssemblyInfo.cache

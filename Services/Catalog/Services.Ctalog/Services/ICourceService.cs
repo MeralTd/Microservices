@@ -14,6 +14,6 @@ namespace Services.Catalog.Services
         Task<Response<List<CourseDto>>> GetAllByUserIdAsync(string userId);
         Task<Response<CourseDto>> CreateAsync(CourseCreateDto courseCreateDto);
         Task<Response<NoContent>> UpdateAsync(CourseUpdateDto courseUpdateDto);
-        Task<Response<NoContent>> DeleteAsync(string id)
+        Task<Response<NoContent>> DeleteAsync(string id);
     }
 }
