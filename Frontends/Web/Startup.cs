@@ -26,11 +26,20 @@ namespace Web
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.Configure<ClientSettings>(Configuration.GetSection("ClientSettings"));
+            services.Configure<ServiceApiSettings>(Configuration.GetSection("ServiceApiSettings"));
+
             services.AddHttpContextAccessor();
             services.AddHttpClient<IIdentityService, IdentityService>();
 
-            services.Configure<ClientSettings>(Configuration.GetSection("ClientSettings"));
-            services.Configure<ServiceApiSettings>(Configuration.GetSection("ServiceApiSettings"));
+            var serviceSettings = Configuration.GetSection("ServiceApiSettings").Get<ServiceApiSettings>();
+
+            services.AddHttpClient<IUserService, UserService>(opt =>
+            {
+                opt.BaseAddress = new Uri(serviceSettings.IdentityBaseUri);
+            });
+
+           
 
             services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(CookieAuthenticationDefaults.AuthenticationScheme, opts =>
             {
