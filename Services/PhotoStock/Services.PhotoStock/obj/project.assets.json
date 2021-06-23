@@ -75,6 +75,19 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Shared.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -185,10 +198,16 @@
         "swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "Shared/1.0.0": {
+      "type": "project",
+      "path": "../../../Shared/Shared/Shared.csproj",
+      "msbuildProject": "../../../Shared/Shared/Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "Shared >= 1.0.0",
       "Swashbuckle.AspNetCore >= 5.6.3"
     ]
   },
@@ -228,7 +247,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Evogens_PC\\source\\repos\\Microservices\\Shared\\Shared\\Shared.csproj": {
+              "projectPath": "C:\\Users\\Evogens_PC\\source\\repos\\Microservices\\Shared\\Shared\\Shared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
