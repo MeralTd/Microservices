@@ -25,6 +25,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PhotoStock", "PhotoStock", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.PhotoStock", "Services\PhotoStock\Services.PhotoStock\Services.PhotoStock.csproj", "{7456A94C-7713-4783-9A9A-956959439B88}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateways", "Gateways", "{C3A74972-A4DB-4F6C-977E-28394E449D50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.Gateway", "Gateway\Services.Gateway\Services.Gateway.csproj", "{7CAC35F7-0C94-48B0-934E-129B107C1668}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,10 @@ Global
 		{7456A94C-7713-4783-9A9A-956959439B88}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7456A94C-7713-4783-9A9A-956959439B88}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7456A94C-7713-4783-9A9A-956959439B88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CAC35F7-0C94-48B0-934E-129B107C1668}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CAC35F7-0C94-48B0-934E-129B107C1668}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CAC35F7-0C94-48B0-934E-129B107C1668}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CAC35F7-0C94-48B0-934E-129B107C1668}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -63,6 +71,7 @@ Global
 		{D065A2AA-E7FC-483B-8DFF-C6CD55D3A455} = {EDBE9348-D08B-4DE1-A515-25AAAE8D76E7}
 		{8437143C-050B-4E61-A3C5-8367B0585D9A} = {2A86C3F1-B15D-4A36-9EB0-8DB90C10B0F5}
 		{7456A94C-7713-4783-9A9A-956959439B88} = {8437143C-050B-4E61-A3C5-8367B0585D9A}
+		{7CAC35F7-0C94-48B0-934E-129B107C1668} = {C3A74972-A4DB-4F6C-977E-28394E449D50}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6D6F5E1C-D25C-4165-AE72-EC12D22B4464}
