@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "thwd0nrkFpLgIXv4MW63OLuqmPIG/1E/Mdx2jTgbMCYzbTfUFJmuriPEzfscgqvljghpHzfSBdqxfDzsnB5YMw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Evogens_PC\\source\\repos\\Microservices\\Services\\PhotoStock\\Services.PhotoStock\\Services.PhotoStock.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Evogens_PC\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Evogens_PC\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Evogens_PC\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\Evogens_PC\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\Evogens_PC\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\Evogens_PC\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
