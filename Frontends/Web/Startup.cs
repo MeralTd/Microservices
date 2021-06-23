@@ -33,9 +33,15 @@ namespace Web
             services.AddHttpContextAccessor();
             services.AddHttpClient<IIdentityService, IdentityService>();
 
+            var serviceSettings = Configuration.GetSection("ServiceApiSettings").Get<ServiceApiSettings>();
+
             services.AddScoped<ResourceOwnerPasswordTokenHandler>();
 
-            var serviceSettings = Configuration.GetSection("ServiceApiSettings").Get<ServiceApiSettings>();
+            services.AddHttpClient<ICatalogService, CatalogService>(opt =>
+            {
+                opt.BaseAddress = new Uri($"{serviceSettings.GatewayBaseUri}/{serviceSettings.Catalog.Path}");
+            });
+
 
             services.AddHttpClient<IUserService, UserService>(opt =>
             {
