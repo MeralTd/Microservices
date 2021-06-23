@@ -1,4 +1,6 @@
-﻿namespace Web.Models.Catalogs
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Web.Models.Catalogs
 {
     public class FeatureViewModel
     {
