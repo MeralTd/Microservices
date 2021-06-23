@@ -26,7 +26,7 @@ namespace Services.Gateway
             //    options.RequireHttpsMetadata = false;
             //});
 
-            services.AddOcelot()/*.AddDelegatingHandler<TokenExhangeDelegateHandler>();*/
+            services.AddOcelot();/*.AddDelegatingHandler<TokenExhangeDelegateHandler>();*/
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
