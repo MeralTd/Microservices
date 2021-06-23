@@ -32,6 +32,7 @@ namespace Web
             services.Configure<ServiceApiSettings>(Configuration.GetSection("ServiceApiSettings"));
 
             services.AddHttpContextAccessor();
+            services.AddAccessTokenManagement();
             services.AddHttpClient<IIdentityService, IdentityService>();
 
             var serviceSettings = Configuration.GetSection("ServiceApiSettings").Get<ServiceApiSettings>();
