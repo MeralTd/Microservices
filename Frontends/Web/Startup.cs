@@ -8,6 +8,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Web.Handler;
 using Web.Models;
 using Web.Services;
 using Web.Services.Interfaces;
@@ -31,6 +32,8 @@ namespace Web
 
             services.AddHttpContextAccessor();
             services.AddHttpClient<IIdentityService, IdentityService>();
+
+            services.AddScoped<ResourceOwnerPasswordTokenHandler>();
 
             var serviceSettings = Configuration.GetSection("ServiceApiSettings").Get<ServiceApiSettings>();
 
