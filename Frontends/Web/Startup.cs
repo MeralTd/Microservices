@@ -36,6 +36,8 @@ namespace Web
 
             var serviceSettings = Configuration.GetSection("ServiceApiSettings").Get<ServiceApiSettings>();
 
+            services.AddHttpClient<IClientCredentialTokenService, ClientCredentialTokenService>();
+
             services.AddScoped<ISharedIdentityService, SharedIdentityService>();
             services.AddScoped<ResourceOwnerPasswordTokenHandler>();
 

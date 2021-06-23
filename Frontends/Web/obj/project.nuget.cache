@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "007Xkgt/u035JG3POA2fYXx+2VqrXjiIka6MXESHWaLwpW3Gp/ymU0Y05KBQRikdqQMdP4hZZtJ1LHHGDvPflw==",
+  "dgSpecHash": "eqWhVjC5fblfE5zYO6UGH8rf7xPwezK88+tWrZDtrgDP9iAV0nKlrHiBBV8vAuIcDGYD60ttD5e6Qy2JbT1mUg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Evogens_PC\\source\\repos\\Microservices\\Frontends\\Web\\Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Evogens_PC\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
     "C:\\Users\\Evogens_PC\\.nuget\\packages\\identitymodel\\5.1.0\\identitymodel.5.1.0.nupkg.sha512",
+    "C:\\Users\\Evogens_PC\\.nuget\\packages\\identitymodel.aspnetcore\\3.0.0\\identitymodel.aspnetcore.3.0.0.nupkg.sha512",
+    "C:\\Users\\Evogens_PC\\.nuget\\packages\\microsoft.aspnetcore.authentication.openidconnect\\5.0.0\\microsoft.aspnetcore.authentication.openidconnect.5.0.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
     "C:\\Users\\Evogens_PC\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\5.0.0\\microsoft.aspnetcore.razor.language.5.0.0.nupkg.sha512",
