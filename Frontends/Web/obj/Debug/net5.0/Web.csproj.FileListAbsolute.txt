@@ -127,8 +127,10 @@ C:\Users\Evogens_PC\source\repos\Microservices\Frontends\Web\bin\Debug\net5.0\zh
 C:\Users\Evogens_PC\source\repos\Microservices\Frontends\Web\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\Evogens_PC\source\repos\Microservices\Frontends\Web\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\Evogens_PC\source\repos\Microservices\Frontends\Web\obj\Debug\net5.0\Razor\Views\Auth\SignIn.cshtml.g.cs
-C:\Users\Evogens_PC\source\repos\Microservices\Frontends\Web\obj\Debug\net5.0\Razor\Views\User\Index.cshtml.g.cs
 C:\Users\Evogens_PC\source\repos\Microservices\Frontends\Web\bin\Debug\net5.0\IdentityModel.AspNetCore.dll
 C:\Users\Evogens_PC\source\repos\Microservices\Frontends\Web\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
 C:\Users\Evogens_PC\source\repos\Microservices\Frontends\Web\obj\Debug\net5.0\Razor\Views\Courses\Index.cshtml.g.cs
 C:\Users\Evogens_PC\source\repos\Microservices\Frontends\Web\obj\Debug\net5.0\Razor\Views\Courses\Create.cshtml.g.cs
+C:\Users\Evogens_PC\source\repos\Microservices\Frontends\Web\obj\Debug\net5.0\Razor\Views\Courses\Update.cshtml.g.cs
+C:\Users\Evogens_PC\source\repos\Microservices\Frontends\Web\obj\Debug\net5.0\Razor\Views\User\Index.cshtml.g.cs
+C:\Users\Evogens_PC\source\repos\Microservices\Frontends\Web\obj\Debug\net5.0\Razor\Views\Home\Detail.cshtml.g.cs

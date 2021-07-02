@@ -21,5 +21,6 @@ namespace Web.Services
         {
             return await _client.GetFromJsonAsync<UserViewModel>("/api/user/getuser");
         }
+
     }
 }

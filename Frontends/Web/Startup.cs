@@ -10,6 +10,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Web.Handler;
+using Web.Helpers;
 using Web.Models;
 using Web.Services;
 using Web.Services.Interfaces;
@@ -33,6 +34,11 @@ namespace Web
 
             services.AddHttpContextAccessor();
             services.AddAccessTokenManagement();
+
+            services.AddSingleton<PhotoHelper>();
+            services.AddScoped<ResourceOwnerPasswordTokenHandler>();
+            services.AddScoped<ClientCredentialTokenHandler>();
+
             services.AddHttpClient<IIdentityService, IdentityService>();
 
             var serviceSettings = Configuration.GetSection("ServiceApiSettings").Get<ServiceApiSettings>();
@@ -40,15 +46,17 @@ namespace Web
             services.AddHttpClient<IClientCredentialTokenService, ClientCredentialTokenService>();
 
             services.AddScoped<ISharedIdentityService, SharedIdentityService>();
-            services.AddScoped<ResourceOwnerPasswordTokenHandler>();
-            services.AddScoped<ClientCredentialTokenHandler>();
-
+            
 
             services.AddHttpClient<ICatalogService, CatalogService>(opt =>
             {
                 opt.BaseAddress = new Uri($"{serviceSettings.GatewayBaseUri}/{serviceSettings.Catalog.Path}");
             }).AddHttpMessageHandler<ClientCredentialTokenHandler>();
 
+            services.AddHttpClient<IPhotoStockService, PhotoStockService>(opt =>
+            {
+                opt.BaseAddress = new Uri($"{serviceSettings.GatewayBaseUri}/{serviceSettings.PhotoStock.Path}");
+            }).AddHttpMessageHandler<ClientCredentialTokenHandler>();
 
             services.AddHttpClient<IUserService, UserService>(opt =>
             {

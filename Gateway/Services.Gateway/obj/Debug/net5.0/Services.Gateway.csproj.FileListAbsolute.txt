@@ -32,3 +32,14 @@ C:\Users\Evogens_PC\source\repos\Microservices\Gateway\Services.Gateway\obj\Debu
 C:\Users\Evogens_PC\source\repos\Microservices\Gateway\Services.Gateway\obj\Debug\net5.0\ref\Services.Gateway.dll
 C:\Users\Evogens_PC\source\repos\Microservices\Gateway\Services.Gateway\obj\Debug\net5.0\Services.Gateway.pdb
 C:\Users\Evogens_PC\source\repos\Microservices\Gateway\Services.Gateway\obj\Debug\net5.0\Services.Gateway.genruntimeconfig.cache
+C:\Users\Evogens_PC\source\repos\Microservices\Gateway\Services.Gateway\bin\Debug\net5.0\configuration.development.json
+C:\Users\Evogens_PC\source\repos\Microservices\Gateway\Services.Gateway\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Evogens_PC\source\repos\Microservices\Gateway\Services.Gateway\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Evogens_PC\source\repos\Microservices\Gateway\Services.Gateway\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Evogens_PC\source\repos\Microservices\Gateway\Services.Gateway\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Evogens_PC\source\repos\Microservices\Gateway\Services.Gateway\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Evogens_PC\source\repos\Microservices\Gateway\Services.Gateway\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Evogens_PC\source\repos\Microservices\Gateway\Services.Gateway\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Evogens_PC\source\repos\Microservices\Gateway\Services.Gateway\bin\Debug\net5.0\IdentityModel.dll
+C:\Users\Evogens_PC\source\repos\Microservices\Gateway\Services.Gateway\bin\Debug\net5.0\System.Text.Encodings.Web.dll
+C:\Users\Evogens_PC\source\repos\Microservices\Gateway\Services.Gateway\bin\Debug\net5.0\System.Text.Json.dll

@@ -27,3 +27,12 @@ C:\Users\Evogens_PC\source\repos\Microservices\Services\PhotoStock\Services.Phot
 C:\Users\Evogens_PC\source\repos\Microservices\Services\PhotoStock\Services.PhotoStock\obj\Debug\net5.0\ref\Services.PhotoStock.dll
 C:\Users\Evogens_PC\source\repos\Microservices\Services\PhotoStock\Services.PhotoStock\obj\Debug\net5.0\Services.PhotoStock.pdb
 C:\Users\Evogens_PC\source\repos\Microservices\Services\PhotoStock\Services.PhotoStock\obj\Debug\net5.0\Services.PhotoStock.genruntimeconfig.cache
+C:\Users\Evogens_PC\source\repos\Microservices\Services\PhotoStock\Services.PhotoStock\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Evogens_PC\source\repos\Microservices\Services\PhotoStock\Services.PhotoStock\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Evogens_PC\source\repos\Microservices\Services\PhotoStock\Services.PhotoStock\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Evogens_PC\source\repos\Microservices\Services\PhotoStock\Services.PhotoStock\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Evogens_PC\source\repos\Microservices\Services\PhotoStock\Services.PhotoStock\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Evogens_PC\source\repos\Microservices\Services\PhotoStock\Services.PhotoStock\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Evogens_PC\source\repos\Microservices\Services\PhotoStock\Services.PhotoStock\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Evogens_PC\source\repos\Microservices\Services\PhotoStock\Services.PhotoStock\bin\Debug\net5.0\Shared.dll
+C:\Users\Evogens_PC\source\repos\Microservices\Services\PhotoStock\Services.PhotoStock\bin\Debug\net5.0\Shared.pdb

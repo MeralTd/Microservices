@@ -42,9 +42,10 @@ namespace Web.Controllers
         {
             var categories = await _catalogService.GetAllCategoryAsync();
             ViewBag.categoryList = new SelectList(categories, "Id", "Name");
-
-            if (!ModelState.IsValid)  return View();
-
+            if (!ModelState.IsValid)
+            {
+                return View();
+            }
             courseCreateInput.UserId = _sharedIdentityService.GetUserId;
 
             await _catalogService.CreateCourseAsync(courseCreateInput);
